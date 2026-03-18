@@ -14,4 +14,8 @@
 
 }
 
+@media(min-width:768vh){
+    .contenedor{width: 50%;}
+}
+
 
