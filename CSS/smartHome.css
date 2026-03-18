@@ -12,9 +12,11 @@
 /* VARIABLES ALTURA-ANCHO*/
 
 
+
+
 }
 
-@media(min-width:768vh){
+@media(min-width:768px){
     .contenedor{width: 50%;}
 }
 
