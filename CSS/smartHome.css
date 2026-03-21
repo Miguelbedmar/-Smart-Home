@@ -2,14 +2,16 @@
 
 :root{
 /*VARIABLES DEL MODO CLARO*/
---ColorHeader:#AFDED2;
---ColorFondo:#ffff;
+--fondoPantalla:#E3E3E3;
 
+/* HEADER */
+--colorHeader:#AFDED2; 
+--colorTexto:#1a1a1a;
 
 /*VARIABLES DEL MODO OSCURO*/
 --colorFondo:#1E3A5F;
 --colorHeader:#2E5984; ;
-
+--headerColorBorde:#8B8B87;
 
 /* VARIABLES ALTURA-ANCHO*/
 
