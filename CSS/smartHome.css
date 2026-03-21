@@ -2,11 +2,13 @@
 
 :root{
 /*VARIABLES DEL MODO CLARO*/
-
+--ColorHeader:#AFDED2;
+--ColorFondo:#ffff;
 
 
 /*VARIABLES DEL MODO OSCURO*/
-
+--colorFondo:#1E3A5F;
+--colorHeader:#2E5984; ;
 
 
 /* VARIABLES ALTURA-ANCHO*/
