@@ -4,15 +4,29 @@
 /*VARIABLES DEL MODO CLARO*/
 --fondoPantalla:#E3E3E3;
 
-/* HEADER */
+/* HEADER CLARO */
 --colorHeader:#AFDED2; 
 --colorTexto:#1a1a1a;
+--colorBotonSol:#C9A66B;
 
-/*VARIABLES DEL MODO OSCURO*/
+/*WIDGETS CLARO*/
+--colorWid:#FFFFFF;
+--sombreadoWid:rgba(139,139,135,0.2);
+
+
+/*VARIABLES DEL MODO OSCURO    */
 --colorFondo:#1E3A5F;
---colorHeader:#2E5984; ;
 --headerColorBorde:#8B8B87;
+/*HEADER*/
+ --colorHeader:#0D1F3C ;  
+ --colorTexto:#f5f5f5;
+--colorIcono:#87CEEB ;
+/* WIDGETS*/
+--colorWidgets:#2E5984;
+--colorlabels:#B0C4DE;
+--sombreadoWid:rgba(13,31,60,0.4);
 
+  --colorBotonBarra:#6DA3D6;
 /* VARIABLES ALTURA-ANCHO*/
 
 
