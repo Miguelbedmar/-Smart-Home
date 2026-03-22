@@ -1,5 +1,24 @@
 .contenedor{min-width: 100%;}
 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 100%;
+}
+body{
+  font-family: 'arial',sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+/*
+<=========================>
+DECLARACIÓN DE VARIABLES.
+<=========================>
+*/
 :root{
 /*VARIABLES DEL MODO CLARO*/
 --fondoPantalla:#E3E3E3;
