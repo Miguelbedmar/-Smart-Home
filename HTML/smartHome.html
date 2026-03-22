@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page</title>
+    <title>SMART HOME</title>
     <link rel="stylesheet" href="/CSS/smartHome.css">   
     <style>
     .grid-container{  /* Conteiner grid para la colocación de elementos  en filas y columnas*/
@@ -13,16 +13,49 @@
     </style>
 </head>
 <body>
-    <input type="checkbox" id="tema" class=" temaInput">
+    <input type="checkbox" id="theme" class=" theme-input">
 
-        <!-- CABECERA DE--->
+        <!-- HEADER--->
        <header class="header">  
-        <h1 class="tituloHeader">MI SMART HOME</h1>
-        <label for="theme" class="toogle">
-            <span class="theme-toggle-icon">☀️</span>
+        <h1 class="header-title">MI SMART HOME</h1>
+        <label for="theme-toggle" class="theme-toggle">
+            <span class="theme-icon">☀️</span>
         </label>
-
        </header> 
+
+       <main class="dashboard"> <!--Definimos el contenido principal que tendrá nuestra pagina-->
+        <!---Widget de temperatura-->
+        <div class="temperature">
+            <span class="icon">🌡️</span>
+            <p class="widget__label"> Temperatura</p>
+            <p class="widget_value"> 23°C</p>            
+        </div>
+        
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+       </main>
+
+
+
+
+
+
 
 </body>
 </html>
