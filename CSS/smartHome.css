@@ -245,7 +245,23 @@ min-width: 8.75rem;
 }
 
 @media(min-width:64rem){
-    .contenedor{width:50%;}
+  .dashboard{
+    max-width: var(--containerMaxWidget);
+    margin: 0;
+    padding: var(--xlSpacing);
+  }
+  .content-widget{
+    padding: 1.5em;
+    min-height: 10rem;
+  }
+
+  .icon{
+    font-size: 3rem;
+  }
+}
+
+@media(min-width:48rem){
+
 }
 
 
