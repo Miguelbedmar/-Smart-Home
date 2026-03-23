@@ -145,10 +145,10 @@ body:has(#theme-toggle:checked){
   font-size: var(--baseFontSize);
 }
 .theme-icon::before{
-  content: ☀️;
+  content: '☀️';
 }
 body:has(#theme-toggle:checked).theme-icon::before{
-  content: 🌙;
+  content: '🌙';
 }
 
 
