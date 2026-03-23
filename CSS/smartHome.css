@@ -54,7 +54,7 @@ DECLARACIÓN DE VARIABLES.
 --bgPrimary:var(--colorBg);
 --bgHeader:var(--colorSurface);
 --bgWidget:var(--colorWidget);
-
+--bgfooter:var(--colorSurface);
 
 --textPrimary:var(--colorTextDark);
 --textSecondary:var(--colorTextGray);
@@ -94,20 +94,20 @@ DECLARACIÓN DE VARIABLES.
 --containerMaxWidget:90rem;
 }
 body:has(#theme-toggle:checked){
---bgPrimaryNight:var(--colorBgNight);
---bgHeaderNight:var(--colorNight);
---bgWidgetNight:var(--colorsSurfaceNigth);
---bgFooterNight:var(--colorNight);
+--bgPrimary:var(--colorBgNight);
+--bgHeader:var(--colorNight);
+--bgWidget:var(--colorsSurfaceNigth);
+--bgFooter:var(--colorNight);
 
---textPrimaryNight:var(--colorTextLigth);
---textSecondaryNight:var(--colorTextGray);
---textTertiaryNight:var(--colorTextGray);
+--textPrimary:var(--colorTextLigth);
+--textSecondary:var(--colorTextGray);
+--textTertiary:var(--colorTextGray);
 
---accentPrimaryNight:var(--colorNightBright);
---accentSecondaryNight:var(--colorAccentNight);
+--accentPrimary:var(--colorNightBright);
+--accentSecondary:var(--colorAccentNight);
 
 
---borderColorNight:var(--colorAccentNight);
+--borderColor:var(--colorAccentNight);
 --shadowColor:rgba(13,31,60,0.4);
 
 }
@@ -147,9 +147,10 @@ body:has(#theme-toggle:checked){
   font-size: var(--baseFontSize);
 }
 .theme-icon::before{
+
   content: '☀️';
 }
-body:has(#theme-toggle:checked).theme-icon::before{
+body:has(#theme-toggle:checked) .theme-icon::before{
   content: '🌙';
 }
 
@@ -209,7 +210,7 @@ min-width: 8.75rem;
 =====================|
 */
 .footer{
-  background-color: var(--bgFooterNight);
+  background-color: var(--bgfooter);
   padding: var(--smSpacing) var(--smSpacing);
 
   display: flex;
