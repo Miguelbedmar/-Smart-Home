@@ -208,8 +208,8 @@ min-width: 8.75rem;
     FOOTER           |
 =====================|
 */
-.footer{
-  background-color: var(--fontSizeXs);
+.footer-principal{
+  background-color: var(--bgFooterNight);
   padding: var(--smSpacing) var(--smSpacing);
 
   display: flex;
@@ -234,7 +234,15 @@ min-width: 8.75rem;
   color: var(--textSecondary);
 }
 
+.links{
+  font-size: var(--fontSizeXs);
+  color: var(--texTertiary);
+}
 
+.copyright{
+  font-size: var(--fontSizeXs);
+  color: var(--texTertiary);
+}
 
 @media(min-width:768px){
     .contenedor{width:50%;}
