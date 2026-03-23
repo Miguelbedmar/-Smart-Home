@@ -97,7 +97,7 @@ body:has(#theme-toggle:checked){
 --bgPrimary:var(--colorBgNight);
 --bgHeader:var(--colorNight);
 --bgWidget:var(--colorSurfaceNight);
---bgFooter: var(--colorNight);
+--bgfooter: var(--colorNight);
 
 --textPrimary:var(--colorTextLigth);
 --textSecondary:var(--colorTextGray);
