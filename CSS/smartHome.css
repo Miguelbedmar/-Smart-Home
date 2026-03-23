@@ -145,11 +145,22 @@ body:has(#theme-toggle:checked){
   font-size: var(--baseFontSize);
 }
 .theme-icon::before{
-  content: '☀️';
+  content: '';
 }
 body:has(#theme-toggle:checked).theme-icon::before{
   content: '🌙';
 }
+
+.dashboard{
+  flex: 1;
+  padding: var(--smSpacing);
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(var(--widgetMinWidget),1fr));
+  gap: var(--smSpacing);
+  max-width: 100%;
+}
+
 
 
 @media(min-width:768px){
