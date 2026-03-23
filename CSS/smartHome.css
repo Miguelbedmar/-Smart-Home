@@ -208,7 +208,7 @@ min-width: 8.75rem;
     FOOTER           |
 =====================|
 */
-.footer-principal{
+.footer{
   background-color: var(--bgFooterNight);
   padding: var(--smSpacing) var(--smSpacing);
 
@@ -244,7 +244,7 @@ min-width: 8.75rem;
   color: var(--texTertiary);
 }
 
-@media(min-width:768px){
+@media(min-width:64rem){
     .contenedor{width:50%;}
 }
 
