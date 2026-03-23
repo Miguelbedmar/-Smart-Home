@@ -78,6 +78,14 @@ DECLARACIÓN DE VARIABLES.
 --xlFontSize:2rem;
 --iconSice:2.5rem;
 
+/*DECLARACION DE VARIABLES GRID Y ANCHO */
+--widgetMinWidget:18.75rem;
+--containerMaxWidget:90rem;
+}
+body:has(#theme-toggle:checked){
+
+
+
 }
 
 @media(min-width:768px){
