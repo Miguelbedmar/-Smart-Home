@@ -111,6 +111,11 @@ body:has(#theme-toggle:checked){
 --shadowColor:rgba(13,31,60,0.4);
 
 }
+/*
+========|
+HEADER\/|
+========|
+*/
 .header{
   background-color: var(--bgHeader);
   padding: var(--smSpacing) var(--smSpacing);
@@ -153,7 +158,11 @@ body:has(#theme-toggle:checked){
 body:has(#theme-toggle:checked) .theme-icon::before{
   content: '🌙';
 }
-
+/*
+================================|
+ CONTENIDO PRINCIPAL \/\/\/\/\/\|
+================================|
+*/
 .dashboard{
   flex: 1;
   padding: var(--smSpacing);
@@ -243,8 +252,8 @@ min-height: 8.75rem;
   font-size: var(--fontSizeXs);
   color: var(--texTertiary);
 }
-
-@media(min-width:64rem){
+/*DESKTOP*/
+@media(min-width:1024px){
   .dashboard{
     max-width: var(--containerMaxWidget);
     margin: 0;
@@ -259,8 +268,8 @@ min-height: 8.75rem;
     font-size: 3rem;
   }
 }
-
-@media(min-width:48rem){
+/*TABLETS*/
+@media(min-width:768px){
   .header{
     padding: var(--mdSpacing) var(--xlSpacing);
   }
@@ -288,8 +297,8 @@ min-height: 8.75rem;
   }
 
 }
-
-@media(min-width:90rem){
+/*MEDIA QUERY PARA DESKTOPS DE MAYOR TAMAÑO */
+@media(min-width:14440px){
 .header{
   max-width: var(--containerMaxWidget);
   margin: 0 auto;
