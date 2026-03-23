@@ -261,6 +261,31 @@ min-width: 8.75rem;
 }
 
 @media(min-width:48rem){
+  .header{
+    padding: var(--mdSpacing) var(--xlSpacing);
+  }
+  .header-title{
+    font-size: var(--lgFontSize);
+  }
+  .dashboard{
+    padding: var(--xlSpacing);
+    gap: var(--mdSpacing);
+  }
+  .content-widget{
+    min-height: 10rem;
+  }
+  .footer{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--mdSpacing) var(--xlSpacing);
+  }
+
+  .icons-footer{
+    order: 2;
+  }
+  .links{
+    order: 3;
+  }
 
 }
 
