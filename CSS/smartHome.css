@@ -289,4 +289,17 @@ min-height: 8.75rem;
 
 }
 
+@media(min-width:90rem){
+.header{
+  max-width: var(--containerMaxWidget);
+  margin: 0 auto;
+  width: 100%;
+}
+.footer{
+  max-width: var(--containerMaxWidget);
+  margin: 0 auto;
+  width: 100%;
+}
+}
+
 
