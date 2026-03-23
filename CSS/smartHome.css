@@ -144,6 +144,12 @@ body:has(#theme-toggle:checked){
 .theme-icon{
   font-size: var(--baseFontSize);
 }
+.theme-icon::before{
+  content: ☀️;
+}
+body:has(#theme-toggle:checked).theme-icon::before{
+  content: 🌙;
+}
 
 
 @media(min-width:768px){
