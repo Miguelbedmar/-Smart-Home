@@ -21,12 +21,43 @@ DECLARACIÓN DE VARIABLES.
 */
 :root{
 /*VARIABLES  MODO CLARO*/
---colorbg:#E3E3E3;
+--colorBg:#E3E3E3;
+--colorSurface:#AFDED2;
+--colorBorder:#8B8B87;
+--colorAccent: #C9A66B;
+--colorAccent1: #F2B880;
+--colorWidget:#FFFFFF;
+/* MODO OSCURO*/
+--colorBgNight:#1E3A5F;
+--colorsSurfaceNigth:#2E5984;
+--colorAccentNight:#6DA3D6;
+--colorNight:#0D1F3C;
+--colorNightBright:#87CEEB;
+
+/*COLOR DE  TEXTO*/
+--colorTextDark:#1a1a1a;
+--colorTextGray:#666666;
+--colorTextGrayLight:#8B8B87;
+--colorTextLigth:#f5f5f5;
+--colorTextNight: #B0C4DE;
+
+/*DECLARACIÓN DE VARIABLES CAJA*/
+--bgPrimary:var(--colorBg);
+--bgHeader:var(--colorSurface);
+--bgWidget:var(--colorWidget);
 
 
+--textPrimary:var(--colorTextDark);
+--textSecondary:var(--colorTextGray);
+--texTertiary:var(--colorTextGrayLight);
 
 
+--accentPrimary:var(--colorAccent);
+--accentSecundary:var(--colorAccent1);
 
+
+--colorBorder:var(--colorBorder);
+--colorShadow:rgba(139,139,135,0.2);
 }
 
 @media(min-width:768px){
