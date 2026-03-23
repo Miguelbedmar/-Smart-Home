@@ -85,7 +85,7 @@ DECLARACIÓN DE VARIABLES.
 --baseFontSize:1rem;
 --lgFontSize:1.25rem;
 --xlFontSize:2rem;
---iconSice:2.5rem;
+--iconSize:2.5rem;
 
 --smBorderRadius:1rem;
 --mdBorderRadius:1.5rem;
@@ -178,8 +178,21 @@ gap: 0.5em;
 
 box-shadow: 0 0.25rem 0.75rem var(--shadowColor);
 transition: all 0.3s ease;
+min-width: 8.75rem;
+}
+.content-widget:hover{
+  transform: translateY(-0.25rem);
+  box-shadow: 0 0.5rem 1rem var(--shadowColor);
 }
 
+.icon{
+  font-size: var(--iconSize);
+  color: var(--accentPrimary);
+  transition: color 0.3s ease;
+}
+.widget__label{
+  
+}
 @media(min-width:768px){
     .contenedor{width:50%;}
 }
