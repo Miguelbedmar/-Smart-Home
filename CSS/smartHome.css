@@ -249,6 +249,7 @@ min-height: 8.75rem;
 }
 
 .copyright{
+  
   font-size: var(--fontSizeXs);
   color: var(--texTertiary);
 }
